@@ -1,0 +1,15 @@
+.expensecard {
+  width: 35rem;
+  border: 1px solid black;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expensecard > div {
+  background-color: #007bff;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  color: white;
+}

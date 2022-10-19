@@ -1,0 +1,20 @@
+.expensescomponent {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.expensescomponent > input {
+  width: 35rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.05rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.expensescomponent > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}

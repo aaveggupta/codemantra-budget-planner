@@ -1,0 +1,11 @@
+.homepage {
+  padding: 2rem;
+}
+
+.homepage__budgetinfocards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
