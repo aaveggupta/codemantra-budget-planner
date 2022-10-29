@@ -2,10 +2,6 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/proxy",
-      "destination": "https://:paramName"
-    },
-    {
       "source": "proxy/blog1",
       "destination": "http://blog.peakflo.co/en/integrations/xero"
     }
