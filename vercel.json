@@ -2,15 +2,8 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "query",
-          "key": "url",
-          "value": "(?<paramName>.*)"
-        }
-      ],
-      "destination": ":paramName"
+      "source": "/proxy/:path*",
+      "destination": ":path"
     }
   ],
   "redirects": [
