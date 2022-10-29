@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/proxy/:domain/:path*",
-      "destination": "https://:domain/path*"
+      "destination": "https://:domain/:path*"
     }
   ],
   "redirects": [
