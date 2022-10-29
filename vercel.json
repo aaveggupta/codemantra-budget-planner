@@ -18,11 +18,7 @@
     },
     {
       "source": "/url=:link*",
-      "destination": "link"
-    },
-    {
-      "source": "/blog1",
-      "destination": "http://blog.peakflo.co/en/integrations/netsuite",
+      "destination": "link",
       "permanent": true
     },
     {
