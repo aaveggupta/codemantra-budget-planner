@@ -13,16 +13,6 @@
       "permanent": true
     },
     {
-      "source": "/url=:url*",
-      "destination": "url",
-      "permanent": true
-    },
-    {
-      "source": "/url/:link*",
-      "destination": "/blog2",
-      "permanent": true
-    },
-    {
       "source": "/blog2",
       "destination": "http://blog.peakflo.co/en/integrations/xero",
       "permanent": true
