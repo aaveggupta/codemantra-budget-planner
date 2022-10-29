@@ -7,10 +7,10 @@
         {
           "type": "query",
           "key": "page",
-          "value": "?<paramname>"
+          "value": "first-(?<paramName>.*)"
         }
       ],
-      "destination": "http://www.google.com/search?q=:paramname"
+      "destination": "http://www.google.com/search?q=:paramName"
     }
   ],
   "redirects": [
