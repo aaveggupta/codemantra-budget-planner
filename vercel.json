@@ -7,10 +7,10 @@
         {
           "type": "query",
           "key": "page",
-          "value": "home"
+          "value": "<paramname>"
         }
       ],
-      "destination": "http://www.google.in"
+      "destination": "/:paramname"
     }
   ],
   "redirects": [
