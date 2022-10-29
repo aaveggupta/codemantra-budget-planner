@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "proxy/blog1",
+      "source": "/proxy/blog1",
       "destination": "http://blog.peakflo.co/en/integrations/xero"
     }
   ],
