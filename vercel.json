@@ -10,7 +10,7 @@
           "value": "home"
         }
       ],
-      "destination": "/:path*/home"
+      "destination": "http://www.google.in"
     }
   ],
   "redirects": [
