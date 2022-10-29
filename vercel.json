@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/url/:link*",
-      "destination": ":link*"
+      "destination": "/:link*"
     },
     {
       "source": "/blog1",
