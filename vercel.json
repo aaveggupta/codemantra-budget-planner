@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/blog1",
-      "destination": "en/integrations/netsuite"
+      "destination": "netsuite"
     }
   ],
   "redirects": [
