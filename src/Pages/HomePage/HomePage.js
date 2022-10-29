@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AddExpenseComponent from "../../Components/AddExpenseComponent/AddExpenseComponent";
 import BudgetInfoCard from "../../Components/BudgetInfoCard/BudgetInfoCard";
 import ExpensesComponent from "../../Components/ExpensesComponent/ExpensesComponent";
@@ -11,6 +11,12 @@ const HomePage = () => {
   const [budget, setBudget] = useState(4000);
   const [remaining, setRemaining] = useState(4000);
   const [spent, setSpent] = useState(0);
+
+  const [text, setText] = useState("Hello World!!");
+
+  useEffect(() => {
+    console.log("Hello...");
+  }, [remaining]);
 
   const getData = (name, cost) => {
     if (remaining >= cost) {
@@ -27,6 +33,8 @@ const HomePage = () => {
 
   return (
     <div className="homepage">
+      <h1>{text}</h1>
+      <button onClick={() => setText("Hello India!")}>Change Text</button>
       <h1>My Budget Planner</h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />

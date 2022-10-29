@@ -1,0 +1,35 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/url=:link*",
+      "destination": "link"
+    },
+    {
+      "source": "/blog1",
+      "destination": "http://blog.peakflo.co/en/integrations/netsuite",
+      "permanent": true
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/abcd",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/url=:link*",
+      "destination": "link"
+    },
+    {
+      "source": "/blog1",
+      "destination": "http://blog.peakflo.co/en/integrations/netsuite",
+      "permanent": true
+    },
+    {
+      "source": "/blog2",
+      "destination": "http://blog.peakflo.co/en/integrations/xero",
+      "permanent": true
+    }
+  ]
+}
