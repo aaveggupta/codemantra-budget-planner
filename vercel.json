@@ -7,7 +7,7 @@
         {
           "type": "query",
           "key": "page",
-          "value": "first-(?<paramName>.*)"
+          "value": "first-(?<paramname>.*)"
         }
       ],
       "destination": "/:paramname"
