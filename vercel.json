@@ -2,14 +2,19 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/blog1",
-      "destination": "http://blog.peakflo.co/en/integrations/netsuite"
+      "source": "/url=:url*",
+      "destination": "url"
     }
   ],
   "redirects": [
     {
       "source": "/abcd",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/url=:url*",
+      "destination": "url",
       "permanent": true
     },
     {
