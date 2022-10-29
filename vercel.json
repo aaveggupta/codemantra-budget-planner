@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/blog1",
-      "destination": "netsuite"
+      "destination": "http://blog.peakflo.co/en/integrations/netsuite"
     }
   ],
   "redirects": [
