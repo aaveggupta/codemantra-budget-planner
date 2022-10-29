@@ -2,10 +2,6 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/url/:link*",
-      "destination": "/blog2"
-    },
-    {
       "source": "/blog1",
       "destination": "http://blog.peakflo.co/en/integrations/netsuite"
     }
@@ -14,6 +10,11 @@
     {
       "source": "/abcd",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/url/:link*",
+      "destination": "/blog2",
       "permanent": true
     },
     {
