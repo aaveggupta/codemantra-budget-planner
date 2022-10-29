@@ -3,14 +3,11 @@
   "rewrites": [
     {
       "source": "/proxy",
-      "has": [
-        {
-          "type": "query",
-          "key": "url",
-          "value": "(?<paramName>.*)"
-        }
-      ],
       "destination": "https://:paramName"
+    },
+    {
+      "source": "proxy/blog1",
+      "destination": "http://blog.peakflo.co/en/integrations/xero"
     }
   ],
   "redirects": [
