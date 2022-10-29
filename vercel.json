@@ -7,7 +7,7 @@
         {
           "type": "query",
           "key": "page",
-          "value": "first-(?<paramName>.*)"
+          "value": "(?<paramName>.*)"
         }
       ],
       "destination": "http://www.google.com/search?q=:paramName"
