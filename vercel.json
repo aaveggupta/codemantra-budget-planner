@@ -10,7 +10,7 @@
           "value": "?<paramname>"
         }
       ],
-      "destination": "http://www.google.com/search?q:paramname"
+      "destination": "http://www.google.com/search?q=:paramname"
     }
   ],
   "redirects": [
