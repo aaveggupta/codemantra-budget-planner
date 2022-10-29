@@ -2,8 +2,15 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/url=:url*",
-      "destination": "url"
+      "source": "/specific/:path*",
+      "has": [
+        {
+          "type": "query",
+          "key": "page",
+          "value": "home"
+        }
+      ],
+      "destination": "/:path*/home"
     }
   ],
   "redirects": [
