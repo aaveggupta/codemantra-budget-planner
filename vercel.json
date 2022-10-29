@@ -2,8 +2,8 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/proxy/:path",
-      "destination": "https://:path"
+      "source": "/proxy/:domain/:path*",
+      "destination": "https://:domain/path*"
     }
   ],
   "redirects": [
