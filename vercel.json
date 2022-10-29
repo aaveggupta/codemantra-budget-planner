@@ -7,8 +7,7 @@
     },
     {
       "source": "/blog1",
-      "destination": "http://blog.peakflo.co/en/integrations/netsuite",
-      "permanent": true
+      "destination": "http://blog.peakflo.co/en/integrations/netsuite"
     }
   ],
   "redirects": [
