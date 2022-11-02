@@ -9,7 +9,7 @@
   "redirects": [
     {
       "source": "/abcd",
-      "destination": "/",
+      "destination": "/ghi/",
       "permanent": true
     },
     {

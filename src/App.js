@@ -9,7 +9,7 @@ const App = () => {
       "https://www.googletagmanager.com/gtm.js?id=GTM-NJGNR68"
     );
     const proxyUrl = new URL(
-      `${window.location.hostname}/proxy/${url
+      `"https://www.${window.location.hostname}/proxy/${url
         .toString()
         .replace(/(^\w+:|^)\/\//, "")}`
     );
