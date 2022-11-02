@@ -13,6 +13,11 @@
       "permanent": true
     },
     {
+      "source": "/efgh",
+      "destination": "/home/",
+      "permanent": true
+    },
+    {
       "source": "/blog2",
       "destination": "http://blog.peakflo.co/en/integrations/xero",
       "permanent": true
