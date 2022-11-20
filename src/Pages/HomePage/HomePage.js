@@ -35,7 +35,7 @@ const HomePage = () => {
     <div className="homepage">
       <h1>{text}</h1>
       <button onClick={() => setText("Hello India!")}>Change Text</button>
-      <h1>My Budget Planner</h1>
+      <h1>My Budget Planner Hello World</h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />
         <BudgetInfoCard

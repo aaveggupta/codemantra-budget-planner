@@ -35,7 +35,31 @@ const HomePage2 = () => {
     <div className="homepage">
       <h1>HELLLLLLOOOOO WORLD</h1>
       <button onClick={() => setText("Hello India!")}>Change Text</button>
-      <h1>My Budget Planner</h1>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In itaque eum,
+        modi ea harum ipsum temporibus officia dolorem similique libero deserunt
+        vero expedita natus accusamus nihil enim. Ut inventore officia sunt
+        ducimus, reiciendis magnam sint quidem beatae neque praesentium
+        laudantium veritatis hic amet delectus facilis impedit est, ipsa autem
+        consectetur natus optio! Neque consectetur ipsam placeat suscipit
+        excepturi at distinctio veritatis consequatur laborum ab commodi
+        voluptate cum, soluta, illo, debitis pariatur obcaecati dolorum harum
+        iusto magnam omnis? Obcaecati, a soluta consequuntur sed sequi, eveniet
+        nulla debitis repellat quasi nobis ipsam impedit alias est cupiditate
+        quis recusandae dolorum explicabo, eligendi error. Aliquam quibusdam
+        vero quisquam nesciunt natus fugiat sit, deserunt voluptatem voluptate
+        quas excepturi ad, nisi modi reprehenderit ratione, eum aliquid omnis ea
+        suscipit porro delectus earum facilis unde. Laudantium illo maiores
+        cumque voluptates nulla itaque atque perspiciatis. Voluptates culpa
+        doloribus expedita sequi rerum illum et facilis fuga quibusdam
+        voluptatem ipsa ab explicabo, repellat quas earum laborum esse tempore?
+        Sapiente eos consequuntur iste voluptatibus optio, debitis cupiditate
+        repudiandae et consequatur alias explicabo voluptates facere quas,
+        dolorum sunt placeat exercitationem commodi animi unde laudantium
+        corporis atque cumque officiis nostrum. Labore perferendis quo nulla
+        odio inventore numquam, neque facilis exercitationem molestiae, odit
+        optio!
+      </h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />
         <BudgetInfoCard
