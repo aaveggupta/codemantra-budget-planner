@@ -33,25 +33,9 @@ const HomePage2 = () => {
 
   return (
     <div className="homepage">
-      <h1>HELLLLLLOOOOO WORLD</h1>
+      <h1>HELLO WORLD</h1>
       <button onClick={() => setText("Hello India!")}>Change Text</button>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In itaque eum,
-        modi ea harum ipsum temporibus officia dolorem similique libero deserunt
-        vero expedita natus accusamus nihil enim. Aliquam quibusdam vero
-        quisquam nesciunt natus fugiat sit, deserunt voluptatem voluptate quas
-        excepturi ad, nisi modi reprehenderit ratione, eum aliquid omnis ea
-        suscipit porro delectus earum facilis unde. Laudantium illo maiores
-        cumque voluptates nulla itaque atque perspiciatis. Voluptates culpa
-        doloribus expedita sequi rerum illum et facilis fuga quibusdam
-        voluptatem ipsa ab explicabo, repellat quas earum laborum esse tempore?
-        Sapiente eos consequuntur iste voluptatibus optio, debitis cupiditate
-        repudiandae et consequatur alias explicabo voluptates facere quas,
-        dolorum sunt placeat exercitationem commodi animi unde laudantium
-        corporis atque cumque officiis nostrum. Labore perferendis quo nulla
-        odio inventore numquam, neque facilis exercitationem molestiae, odit
-        optio!
-      </h1>
+      <h1>This is Awesome</h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />
         <BudgetInfoCard
