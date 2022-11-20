@@ -36,13 +36,15 @@ const HomePage = () => {
       <h1>{text}</h1>
       <button onClick={() => setText("Hello India!")}>Change Text</button>
       <h1>
-        My Budget Planner Hello World Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Illo quisquam saepe rerum! Vel ullam dolores ipsam
-        modi reiciendis tenetur a quisquam autem et, dolor eos ex tempora
-        assumenda alias provident est repellendus velit totam sit voluptatum?
-        Voluptate, libero iure et, inventore quaerat cumque provident magni
-        rerum laborum voluptates impedit magnam, dignissimos suscipit! Quisquam
-        id aliquam corrupti illo fuga mollitia officia.
+        My Budget Planner is the best. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Dolorem est sint esse magni accusamus iusto ad earum
+        nisi cumque! Expedita consequuntur debitis eaque iure eligendi vel a
+        labore delectus voluptates illo quas, reprehenderit possimus, vitae
+        porro nostrum, nesciunt mollitia suscipit praesentium? Deserunt hic a,
+        dignissimos suscipit reprehenderit quas fuga ducimus temporibus?
+        Veritatis enim eveniet voluptatem provident, repellendus neque, dicta
+        modi sint in placeat vero cumque assumenda. Cupiditate quae, repudiandae
+        labore iusto voluptatem accusamus tempore corporis nulla natus ad.
       </h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />
