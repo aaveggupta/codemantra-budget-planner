@@ -5,7 +5,7 @@ import "./ExpenseCard.css";
 const ExpenseCard = (props) => {
   return (
     <div className="expensecard">
-      <h4>{props.expenseName}</h4>
+      <h4>{props.expenseName} HELLO WORLD</h4>
       <div>
         <h5>{props.expenseAmount}</h5>
       </div>
