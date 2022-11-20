@@ -35,15 +35,7 @@ const HomePage = () => {
     <div className="homepage">
       <h1>{text}</h1>
       <button onClick={() => setText("Hello India!")}>Change Text</button>
-      <h1>
-        My Budget Planner Hello World Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Illo quisquam saepe rerum! Vel ullam dolores ipsam
-        modi reiciendis tenetur a quisquam autem et, dolor eos ex tempora
-        assumenda alias provident est repellendus velit totam sit voluptatum?
-        Voluptate, libero iure et, inventore quaerat cumque provident magni
-        rerum laborum voluptates impedit magnam, dignissimos suscipit! Quisquam
-        id aliquam corrupti illo fuga mollitia officia.
-      </h1>
+      <h1>My Budget Planner is the best.</h1>
       <div className="homepage__budgetinfocards">
         <BudgetInfoCard bgColor="#E2E3E5" text="Budget: Rs" data={budget} />
         <BudgetInfoCard
