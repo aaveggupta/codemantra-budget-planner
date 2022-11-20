@@ -38,17 +38,9 @@ const HomePage2 = () => {
       <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In itaque eum,
         modi ea harum ipsum temporibus officia dolorem similique libero deserunt
-        vero expedita natus accusamus nihil enim. Ut inventore officia sunt
-        ducimus, reiciendis magnam sint quidem beatae neque praesentium
-        laudantium veritatis hic amet delectus facilis impedit est, ipsa autem
-        consectetur natus optio! Neque consectetur ipsam placeat suscipit
-        excepturi at distinctio veritatis consequatur laborum ab commodi
-        voluptate cum, soluta, illo, debitis pariatur obcaecati dolorum harum
-        iusto magnam omnis? Obcaecati, a soluta consequuntur sed sequi, eveniet
-        nulla debitis repellat quasi nobis ipsam impedit alias est cupiditate
-        quis recusandae dolorum explicabo, eligendi error. Aliquam quibusdam
-        vero quisquam nesciunt natus fugiat sit, deserunt voluptatem voluptate
-        quas excepturi ad, nisi modi reprehenderit ratione, eum aliquid omnis ea
+        vero expedita natus accusamus nihil enim. Aliquam quibusdam vero
+        quisquam nesciunt natus fugiat sit, deserunt voluptatem voluptate quas
+        excepturi ad, nisi modi reprehenderit ratione, eum aliquid omnis ea
         suscipit porro delectus earum facilis unde. Laudantium illo maiores
         cumque voluptates nulla itaque atque perspiciatis. Voluptates culpa
         doloribus expedita sequi rerum illum et facilis fuga quibusdam
